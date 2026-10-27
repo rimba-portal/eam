@@ -16,13 +16,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rimba\\Eam\\EamServiceProvider"
+                "Rimba\\Asset\\AssetServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-           "Rimba\\Eam\\": "src/"
+           "Rimba\\Asset\\": "src/"
         }
     },
     "minimum-stability": "alpha",
