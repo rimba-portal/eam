@@ -10,10 +10,10 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
-use Packstub\Flow\Concerns\HasWorkflows;
 use Rimba\Asset\Enums\AssetStatus;
 use Rimba\Attributing\Traits\HasThingAttributes;
 use Rimba\Floorplan\Models\Concerns\HasLocationAssignments;
+use Rimba\Request\Concerns\HasWorkflows;
 
 #[Fillable([
     'parent_id',

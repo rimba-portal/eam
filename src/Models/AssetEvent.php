@@ -11,8 +11,8 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
-use Packstub\Flow\Concerns\HasWorkflows;
 use Rimba\Asset\Enums\AssetEventCategory;
+use Rimba\Request\Concerns\HasWorkflows;
 
 #[Fillable([
     'asset_id',
